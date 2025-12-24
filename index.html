@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio - Jesica Gimenez</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" aria-label="Encabezado principal">
+    <nav class="nav" aria-label="Navegación principal">
+      <a href="#presentacion">Presentación</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- PRESENTACIÓN -->
+    <section id="presentacion" class="seccion presentacion" aria-label="Presentación">
+      <div class="presentacion-texto">
+        <h1>Jesica Daniela Gimenez</h1>
+        <p class="subtitulo">Desarrolladora Web Frontend</p>
+        <p class="bio">
+          Apasionada por construir experiencias digitales simples, accesibles y efectivas.
+          Disfruto crear interfaces limpias y componentes reutilizables.
+        </p>
+        <a class="cta" href="#proyectos">Ver proyectos</a>
+      </div>
+
+      <div class="presentacion-imagen">
+        <img
+          src="imagenes/ilustracion.jpg.jpg"
+          alt="Ilustración de bienvenida"
+          loading="lazy"
+        />
+      </div>
+    </section>
+
+    <!-- HABILIDADES --> 
+  <section id="habilidades" class="seccion habilidades" aria-label="Habilidades técnicas"> 
+   <h2 class="habil">Habilidades</h2>
+   <ul class="lista-habilidades">
+  <li>
+    <img src="imagenes/undraw_my-code-snippets_1t66.png" alt="HTML5">
+    <span>HTML5</span>
+  </li>
+  <li>
+    <img src="imagenes/undraw_indie-hacker-avatar_b3wy.png" alt="CSS3">
+    <span>CSS3</span>
+  </li>
+  <li>
+    <img src="imagenes/undraw_static-assets_di5m.png" alt="JavaScript">
+    <span>JavaScript</span>
+  </li>
+  <li>
+    <img src="imagenes/undraw_static-website_x3tn.png" alt="Responsive Design">
+    <span>Responsive Design</span>
+  </li>
+  <li>
+    <img src="imagenes/undraw_typing-code_6t2b.png" alt="Accesibilidad Web">
+    <span>Accesibilidad Web</span>
+  </li>
+  <li>
+    <img src="imagenes/undraw_responsive_csbt.png" alt="Git">
+    <span>Git</span>
+  </li>
+</ul>
+
+
+    <!-- CITA -->
+    <section class="seccion cita" aria-label="Cita inspiradora">
+      <blockquote>
+        “La simplicidad es la máxima sofisticación.”
+      </blockquote>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="seccion proyectos" aria-label="Proyectos">
+      <h2>Proyectos</h2>
+
+      <div class="grid-proyectos">
+        <article class="card-proyecto card">
+          <img src="imagenes/undraw_indie-hacker-avatar_b3wy.png" alt="Portfolio personal" loading="lazy" />
+          <h3>Portfolio Personal</h3>
+          <p>HTML, CSS y diseño responsive.</p>
+          <div class="proyecto-links">
+            <a href="#" target="_blank" rel="noopener noreferrer">Demo</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Código</a>
+          </div>
+        </article>
+
+        <article class="card-proyecto card">
+          <img src="imagenes/undraw_ai-chat_ljb9.png" alt="Proyecto web" loading="lazy" />
+          <h3>Proyecto Web</h3>
+          <p>Maquetado moderno y accesible.</p>
+          <div class="proyecto-links">
+            <a href="#" target="_blank" rel="noopener noreferrer">Demo</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Código</a>
+          </div>
+        </article>
+
+        <article class="card-proyecto card">
+          <img src="imagenes/undraw_database-tables_yft5.png" alt="App JavaScript" loading="lazy" />
+          <h3>App JavaScript</h3>
+          <p>Lógica JS y manipulación del DOM.</p>
+          <div class="proyecto-links">
+            <a href="#" target="_blank" rel="noopener noreferrer">Demo</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Código</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="seccion contacto" aria-label="Contacto">
+      <div class="contact-column">
+        <h2>Contactame</h2>
+        <p>
+          ¿Tenés un proyecto o idea en mente?
+          Estoy abierta a propuestas, colaboraciones y nuevos desafíos.
+        </p>
+
+        <ul class="contact-social-links">
+          <li>
+            <a href="#" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:jesica@gmail.com" aria-label="Email">
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="contact-column">
+        <h2>Escribime</h2>
+
+        <form action="https://submit-form.com/dZv3lZKLnN2eByG6HXaMj" method="POST" class="contact-form">
+          <div class="form-control">
+            <label for="firstname">Nombre</label>
+            <input type="text" id="firstname" name="Nombre" required />
+          </div>
+
+          <div class="form-control">
+            <label for="lastname">Apellido</label>
+            <input type="text" id="lastname" name="Apellido" required />
+          </div>
+
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="Email" required />
+          </div>
+
+          <div class="form-control">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="Mensaje" rows="5" required></textarea>
+          </div>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" aria-label="Pie de página">
+    <nav class="footer-links">
+      <a href="#presentacion">Presentación</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+
+    <ul class="footer-social-links">
+      <li>
+        <a href="#" aria-label="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" aria-label="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+      <li>
+        <a href="mailto:jesica@gmail.com" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    </ul>
+
+    <p>© 2025 — Jesica Gimenez</p>
+  </footer>
+
+</body>
+</html>
