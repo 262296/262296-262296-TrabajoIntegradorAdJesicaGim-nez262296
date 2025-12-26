@@ -4,7 +4,7 @@ Este es mi sitio web portfolio donde presento mis proyectos como desarrolladora 
 He usado HTML, CSS y JavaScript para construir una página **responsiva y visualmente atractiva**.
 
 ## 🚀 Ver online
-📍 https://TU-USUARIO.github.io/262296-262296-TrabajoIntegradorAdJesicaGim-nez262296
+📍 https://github.com/262296/262296-262296-TrabajoIntegradorAdJesicaGim-nez262296.git
 
 ## 🛠 Tecnologías
 - HTML5
